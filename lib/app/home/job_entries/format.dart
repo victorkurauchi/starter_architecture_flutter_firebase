@@ -3,8 +3,10 @@ import 'package:intl/intl.dart';
 class Format {
   static String hours(double hours) {
     final hoursNotNegative = hours < 0.0 ? 0.0 : hours;
-    final formatter = NumberFormat.decimalPattern();
-    final formatted = formatter.format(hoursNotNegative);
+    // final formatter = NumberFormat.decimalPattern();
+    // final formatted = formatter.format(hoursNotNegative);
+    final formatted = hoursNotNegative.toStringAsFixed(
+        hoursNotNegative.truncateToDouble() == hoursNotNegative ? 0 : 2);
     return '${formatted}h';
   }
 

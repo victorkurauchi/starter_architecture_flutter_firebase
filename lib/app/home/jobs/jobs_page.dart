@@ -5,7 +5,7 @@ import 'package:starter_architecture_flutter_firebase/app/home/job_entries/job_e
 import 'package:starter_architecture_flutter_firebase/app/home/jobs/edit_job_page.dart';
 import 'package:starter_architecture_flutter_firebase/app/home/jobs/job_list_tile.dart';
 import 'package:starter_architecture_flutter_firebase/app/home/jobs/list_items_builder.dart';
-import 'package:starter_architecture_flutter_firebase/app/home/models/job.dart';
+import 'package:starter_architecture_flutter_firebase/models/job.dart';
 import 'package:alert_dialogs/alert_dialogs.dart';
 import 'package:starter_architecture_flutter_firebase/app/top_level_providers.dart';
 import 'package:starter_architecture_flutter_firebase/constants/strings.dart';
